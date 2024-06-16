@@ -26,8 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We make make a name variable and assign it to Dane.
+// If the value is equal to Mary then we console.log('Mary');
+// Or else we console.log('How do you do?');
 // 
 //
 
@@ -45,8 +46,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We have a variable named secret with an empty value.
+// We have a variable named code with the numbers 123.
+// If code is equal to  123
 // 
 //
 
@@ -70,8 +72,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We named a variable isStudent and assigned it's value to true.
+// We named a variable age and assigned it's value to 34.
+// We named a variable zip and assigned it's value to 55407.
+// If isStudent is equal to age and zip is greater than 80000.
+// console.log(`You're a student on the West Coast!`);
+// If isStudent is false or age less than 30
+// else console.log('What are your hobbies');
+// If isStudent is true.
+// console.log('Welcome to Prime!');
+// else console.log('How about the weather?);
 // 
 //
 
@@ -138,6 +148,10 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+// FIX - colorOne and colorTwo are assigned the wrong value. colorOne = 'blue';
+// and colorTwo = 'red';.
+// colorTwo is not set to 'purple'
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -151,6 +165,11 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+// FIX time is a constants it can't change. 
+//6. We start with two variables -- age is set to 21 and minAge is set to 21.
+// We check if age is greater than or equal to minAge 
+// -- it is, so we console.log 'enter'.
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -166,4 +185,8 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+// FIX The description says age is greater than or equal to minAge. You put less than or equal to. 
+//The code should be changed to
+// if(age >= minAge){
+// console.log('enter');
 
